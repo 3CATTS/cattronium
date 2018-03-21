@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<post>
+  <title>Welcome to Cattronium</title>
+  <slug>welcome</slug>
+  <pubDate>2018-03-21 18:48:16</pubDate>
+  <lastModified>2018-03-21 18:48:16</lastModified>
+  <excerpt>No idea where this is going. Stick with me.</excerpt>
+  <content>&lt;p&gt;This is the first entry of what I hope will be many. The intention is to use this blog to build writing skills, chronicle different hobbies, and maybe share some information. The website itself is an adventure in web development in order to try to keep up to date with current technologies.&lt;/p&gt;
+&lt;p&gt;We'll see where this goes!&lt;/p&gt;</content>
+  <ispublished>true</ispublished>
+  <categories>
+    <category>welcome</category>
+    <category>first post</category>
+    <category>info</category>
+  </categories>
+  <comments></comments>
+</post>

@@ -80,7 +80,7 @@ namespace Cattronium
                 xml.WriteStartElement("service");
 
                 xml.WriteElementString("enginename", "Cattronium");
-                xml.WriteElementString("enginelink", "http://github.com/madskristensen/Cattronium/");
+                xml.WriteElementString("enginelink", "http://www.cattronium.com");
                 xml.WriteElementString("homepagelink", host);
 
                 xml.WriteStartElement("apis");
@@ -151,7 +151,7 @@ namespace Cattronium
             await atom.WriteTitle(_settings.Value.Name);
             await atom.WriteId(host);
             await atom.WriteSubtitle(_settings.Value.Description);
-            await atom.WriteGenerator("Cattronium", "https://github.com/madskristensen/Cattronium", "1.0");
+            await atom.WriteGenerator("Cattronium", "https://www.cattronium.com", "1.0");
             await atom.WriteValue("updated", updated.ToString("yyyy-MM-ddTHH:mm:ssZ"));
             return atom;
         }
